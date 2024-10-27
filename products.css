@@ -1,0 +1,59 @@
+products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    font-family:initial;
+    background-color: #f9fcfc;
+}
+
+product {
+    display: block;
+    width: 300px;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+name {
+    display: block;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #150e2e;
+    margin-bottom: 10px;
+}
+
+description {
+    display: block;
+    color: #031b11;
+    margin-bottom: 10px;
+    line-height: 1.4;
+}
+
+price::before {
+    content: "$";
+}
+
+price {
+    display: block;
+    color: #144a8d;
+    font-weight: bold;
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+categories {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+category {
+    display: inline-block;
+    padding: 4px 8px;
+    background-color: #acc2af;
+    border-radius: 4px;
+    color: #0c46a3;
+    font-size: 0.9em;
+}

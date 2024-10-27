@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="products.css"?>
+<products>
+    <product>
+        <name>Vintage T-shirt</name>
+        <description>Tie-die Grateful Dead T-shirt</description>
+        <price>35.00</price>
+        <categories>
+            <category>clothing</category>
+            <category>vintage</category>
+        </categories>
+    </product>
+    
+    <product>
+        <name>Phone</name>
+        <description>Google Pixel Phone 3a</description>
+        <price>130.00</price>
+        <categories>
+            <category>electronics</category>
+            <category>device</category>
+        </categories>
+    </product>
+    
+    <product>
+        <name>Printer</name>
+        <description>Wiress Printer for the Offices</description>
+        <price>49.99</price>
+        <categories>
+            <category>appliances</category>
+        </categories>
+    </product>
+    
+    <product>
+        <name>Jump rope</name>
+        <description>Extra rope for fitness</description>
+        <price>25.99</price>
+        <categories>
+            <category>fitness</category>
+        </categories>
+    </product>
+    
+    <product>
+        <name>Gaming Keyboard</name>
+        <description>Classic gaming system with 500 built-in games</description>
+        <price>89.99</price>
+        <categories>
+            <category>electronics</category>
+            <category>gaming</category>
+            <category>vintage</category>
+        </categories>
+    </product>
+    
+    <product>
+        <name>Atheletic Shoes</name>
+        <description>Lightweight breathable running shoes with cushioned sole</description>
+        <price>79.99</price>
+        <categories>
+            <category>clothing</category>
+            <category>fitness</category>
+        </categories>
+    </product>
+    
+    <product>
+        <name>Appler Watch</name>
+        <description>Fitness tracking smartwatch with heart rate monitor</description>
+        <price>199.99</price>
+        <categories>
+            <category>electronics</category>
+            <category>fitness</category>
+        </categories>
+    </product>
+    
+    <product>
+        <name>Alexa</name>
+        <description>Bluetooth-enabled turntable with built-in speakers</description>
+        <price>149.99</price>
+        <categories>
+            <category>electronics</category>
+            <category>vintage</category>
+        </categories>
+    </product>
+</products>

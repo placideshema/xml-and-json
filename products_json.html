@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products JSON</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f0f6f0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Products made in JSON</h1>
+    <pre id="output"></pre>
+
+    <script>
+        const products_data = {
+            "products": `[
+                {
+                    "name": "Vintage T-shirt",
+                    "description": "Tie-die Grateful Dead T-shirt",
+                    "price": 35.00,
+                    "categories": ["clothing", "vintage"]
+                },
+                {
+                    "name": "Phone",
+                    "description": "Google Pixel Phone 3a",
+                    "price": 130.00,
+                    "categories": ["electronics", "devices"]
+                },
+                {
+                    "name": "Printer",
+                    "description": "Wiress Printer for the Offices",
+                    "price": 150.00,
+                    "categories": ["electronics"]
+                },
+                {
+                    "name": "Jump rope",
+                    "description": "Extra rope for fitness",
+                    "price": 25.99,
+                    "categories": ["fitness"]
+                },
+                {
+                    "name": "Gaming Keyboard",
+                    "description": "Classic gaming keyboard with 500 built-in games",
+                    "price": 89.99,
+                    "categories": ["electronics", "gaming", "vintage"]
+                },
+                {
+                    "name": "Atheletic Shoes",
+                    "description": "Lightweight breathable running shoes with cushioned sole",
+                    "price": 59.99,
+                    "categories": ["clothing", "fitness"]
+                },
+                {
+                    "name": "Apple Watch",
+                    "description": "Fitness tracking smartwatch with heart rate monitor",
+                    "price": 199.99,
+                    "categories": ["electronics", "fitness"]
+                },
+                {
+                    "name": "Alexa",
+                    "description": "Bluetooth-enabled turntable with built-in speakers",
+                    "price": 149.99,
+                    "categories": ["electronics", "vintage"]
+                }
+            ]`
+        };
+
+        // Convert JSON to string to be displayed
+        const parsedProducts = JSON.parse(products_data.products);
+        document.getElementById('output').textContent = JSON.stringify(parsedProducts, null, 2);
+    </script>
+</body>
+</html>
